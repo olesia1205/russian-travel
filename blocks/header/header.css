@@ -1,12 +1,17 @@
 .header {
-  max-width: 928px;
+  margin: 0 auto;
+  align-items: flex-end;
+  width: 928px;
   height: 52px;
-  padding: 28px auto 48px auto;
+  padding-top: 28px;
+  padding-bottom: 48px;
   background-color: #2A2C2F;
   display: flex;
   justify-content: space-between;
   padding-top: 28px;
   padding-bottom: 48px;
+  border: 1px solid red;
+
   /*
   flex-direction: column;
   justify-content: center;

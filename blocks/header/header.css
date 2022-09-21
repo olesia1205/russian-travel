@@ -8,13 +8,5 @@
   background-color: #2A2C2F;
   display: flex;
   justify-content: space-between;
-  padding-top: 28px;
-  padding-bottom: 48px;
-  border: 1px solid red;
 
-  /*
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  overflow: hidden; */
 }

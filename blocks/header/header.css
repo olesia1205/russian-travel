@@ -1,0 +1,15 @@
+.header {
+  max-width: 928px;
+  height: 52px;
+  padding: 28px auto 48px auto;
+  background-color: #2A2C2F;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+  padding-bottom: 48px;
+  /*
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden; */
+}

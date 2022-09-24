@@ -4,6 +4,11 @@
   width: 1024px;
   object-fit: cover;
   object-position: 0 0;
-  opacity: 30%;
+  opacity: 80%;
   z-index: 2;
+  transition: opacity 0.35s linear;
+}
+
+.cover__background:hover {
+  opacity: 30%;
 }

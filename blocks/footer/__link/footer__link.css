@@ -5,4 +5,9 @@
   line-height: 18px;
   color: #FFFFFF;
   text-decoration: none;
+  padding-right: 18px;
+}
+
+.footer__link:hover {
+  opacity: 80%;
 }

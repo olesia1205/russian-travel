@@ -19,3 +19,12 @@
 .header__lang-link:last-of-type {
   padding: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    width: 22px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

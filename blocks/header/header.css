@@ -1,12 +1,30 @@
 .header {
   margin: 0 auto;
   align-items: flex-end;
-  width: 928px;
-  height: 52px;
+  max-width: 1184px;
   padding-top: 28px;
-  padding-bottom: 48px;
+  padding-bottom: 56px;
   background-color: #2A2C2F;
   display: flex;
   justify-content: space-between;
+}
 
+@media screen and (max-width: 1024px) {
+  .header {
+    width: calc(100% - 96px);
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: calc(100% - 32px);
+    padding-top: 16px;
+  }
 }

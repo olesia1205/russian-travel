@@ -1,5 +1,5 @@
 .lead__subtitle {
-  margin: 32px auto 56px auto;
+  margin: 32px auto 64px auto;
   font-family: 'Inter-Regular';
   font-size: 30px;
   font-weight: 400;
@@ -7,5 +7,16 @@
   color: #FFFFFF;
   text-align: center;
   max-width: 640px;
-  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 32px auto 56px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin: 16px auto 40px auto;
+  }
 }

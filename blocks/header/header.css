@@ -1,7 +1,7 @@
 .header {
   margin: 0 auto;
   align-items: flex-end;
-  max-width: 1184px;
+  max-width: calc(100% - 96px);
   padding-top: 28px;
   padding-bottom: 56px;
   background-color: #2A2C2F;

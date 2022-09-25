@@ -6,8 +6,21 @@
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
-  max-width: 160px;
-  width: 100%;
+  max-width: 720px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    padding: 0 24px;
+    margin: 8px 0 88px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    padding: 0 16px;
+    margin: 8px 0 64px 0;
+  }
 }

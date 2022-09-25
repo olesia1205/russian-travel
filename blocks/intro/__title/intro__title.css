@@ -7,6 +7,31 @@
   color: #FFFFFF;
   text-align: center;
   max-width: 690px;
-  width: 100%;
   text-align: left;
+}
+
+@media screen and (max-width: 720px) {
+  .intro__title {
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .intro__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .intro__title {
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

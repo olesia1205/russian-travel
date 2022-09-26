@@ -3,3 +3,9 @@
   margin-bottom: 92px;
   position: relative;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: calc(100% - 96px);
+  }
+}

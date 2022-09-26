@@ -2,7 +2,7 @@
   margin-bottom: 80px;
   width: 100%;
   display: grid;
-  grid-template-columns: 460px calc(100% - 500px);
+  grid-template-columns: auto calc(50% - 8px);
   grid-template-rows: auto;
   column-gap: 40px;
   row-gap: 48px;
@@ -14,19 +14,17 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: 440px calc(100% - 472px);
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: 340px calc(100% - 368px);
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
   .place {
     grid-template-columns: 1fr;
     row-gap: 32px;

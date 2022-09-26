@@ -7,3 +7,21 @@
   line-height: 29px;
   color: #FFFFFF;
 }
+
+.place__paragraph:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+  .place__paragraph {
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    padding: 0 16px;
+  }
+}

@@ -2,3 +2,24 @@
   margin: 92px auto 0 auto;
   max-width: 984px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 88px auto 0 auto;
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    margin: 64px auto 0 auto;
+    width: 100%;
+  }
+}
+

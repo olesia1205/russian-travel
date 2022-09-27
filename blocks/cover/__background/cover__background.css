@@ -1,9 +1,6 @@
 .cover__background {
-  position: absolute;
-  right: -48px;
-  width: 1024px;
+  width: 100%;
   object-fit: cover;
-  object-position: 0 0;
   opacity: 80%;
   z-index: 2;
   transition: opacity 0.35s linear;

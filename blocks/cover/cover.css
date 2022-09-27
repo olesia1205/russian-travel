@@ -1,6 +1,13 @@
 .cover {
-  max-width: 1184px;
+  max-width: calc(100% - 96px);
   width: 100%;
   margin: 0 auto 92px auto;
   position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    width: 100%;
+  }
 }

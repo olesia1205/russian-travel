@@ -1,7 +1,15 @@
 .footer__columns {
   margin: 0 auto;
-  width: 928px;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__columns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

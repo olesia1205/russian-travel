@@ -12,26 +12,26 @@
 
 @media screen and (max-width: 720px) {
   .lead__title {
-    font-size: 5rem;
+    font-size: 80px;
     line-height: 1.04;
   }
 }
 
 @media screen and (max-width: 565px) {
   .lead__title {
-    font-size: 4rem;
+    font-size: 64px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .lead__title {
-    font-size: 3rem;
+    font-size: 48px;
   }
 }
 
 @media screen and (max-width: 340px) {
   .lead__title {
-    font-size: 2.8rem;
+    font-size: 44px;
   }
 }
 

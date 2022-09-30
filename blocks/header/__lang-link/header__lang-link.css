@@ -1,7 +1,6 @@
 .header__lang-link {
   margin: 0;
   width: 30px;
-  height: 28px;
   color: #FFFFFF;
   text-decoration: none;
   padding-right: 18px;
@@ -12,8 +11,8 @@
   font-style: normal;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: 80%;
 }
 
 .header__lang-link:last-of-type {
@@ -23,7 +22,6 @@
 @media screen and (max-width: 320px) {
   .header__lang-link {
     width: 22px;
-    height: 20px;
     font-size: 18px;
     line-height: 20px;
   }

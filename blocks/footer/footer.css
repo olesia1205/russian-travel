@@ -4,12 +4,6 @@
   max-width: calc(100% - 96px);
 }
 
-@media screen and (max-width: 1024px) {
-  .footer {
-    max-width: calc(100% - 96px);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .footer {
     max-width: calc(100% - 48px);

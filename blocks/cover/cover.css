@@ -6,7 +6,7 @@
   height: calc(100vw/1.6);
   margin: 0 auto 92px auto;
   position: relative;
-  background-image: url(../../../images/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   z-index: 2;
   display: flex;

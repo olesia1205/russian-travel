@@ -1,7 +1,7 @@
 .place__paragraph {
   margin: 0;
   padding-bottom: 27px;
-  font-family: 'Inter-Regular';
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
